@@ -72,10 +72,10 @@
       state: present
       unsafe_writes: yes
    
-   - name: restart network
-     service:
-      name: network
-      state: restarted
+#   - name: restart network
+#     service:
+#      name: network
+#      state: restarted
  
    - name: restart nginx
      service:
